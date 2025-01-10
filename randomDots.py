@@ -16,7 +16,7 @@ while running:
             rwidth = random.randint(0, width)
             rheight = random.randint(0, height)
             pygame.draw.circle(screen, (0, 0, 255), (rwidth, rheight), 20)
-            sleep(0.01)
+            sleep(0.5)
             pygame.display.flip()
 
 
